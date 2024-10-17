@@ -1,0 +1,28 @@
+.sidebarUser {
+    height: calc(100vh - 56px); /* Fix the typo */
+    width: 15%;
+    background: #132e1a;
+    color: white;
+  }
+  .Content_User{
+    flex-grow: 1;
+    padding: "20px";
+    margin-left: 15px;
+    background-color: #FFFFFF
+  }
+
+  .no-underline {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .no-underline:hover {
+    text-decoration: none; 
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .sidebarUser{
+      width:30%;
+    }
+  }

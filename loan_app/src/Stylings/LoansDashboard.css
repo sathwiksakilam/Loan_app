@@ -1,0 +1,151 @@
+.app-container {
+    width: 400px;
+    margin: 40px auto;
+    font-family: roboto;
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .deficit {
+    display: flex;
+    align-items: center;
+  }
+  
+  .money-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .amount-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .deficit-text {
+    font-size: 12px;
+    color: #7f7f7f;
+  }
+  
+  .amount {
+    margin: 0;
+    font-size: 24px;
+    color: #4CAF50;
+  }
+  
+  .loan-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tabs-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    /* margin:5px; */
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #0000001A;
+    cursor: pointer;
+  }
+  
+  .active-tab {
+    background-color:#6B99081A;
+    /* background: ; */
+  
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  /* .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  } */
+  
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none; /* Prevents click events on the icon */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Add left padding to accommodate the search icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .loan-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loan-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .loan-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .close-form-button {
+    width:100%;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  

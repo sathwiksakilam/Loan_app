@@ -1,0 +1,101 @@
+*{
+    font-family: Roboto;
+  }
+  
+  .Navbar {
+    background: #ffffff;
+    background-blend-mode: darken;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 41.49%,
+      #eaeae9 59.17%
+    );
+  }
+  
+  .Navbar_Head {
+    font-family: Roboto !important;
+    font-size: 28.55px !important;
+    font-weight: 700 !important;
+    line-height: 33.45px !important;
+    text-align: left !important;
+    color: #0A512F !important; 
+  }
+  
+  
+  .Navbar {
+    height: 56px;
+  }
+  
+  .content {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap:15px;
+    justify-items:self-start; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card-content{
+    display: inline;
+    width: 5rem;
+    border: 2px solid black;
+  }
+  
+  .card-content1{
+    width: 25%;
+  }
+  
+  .sidebar{
+    width:15%;
+    background: #132E1A;
+    color: white;
+    height:auto;
+  }
+  
+  .UserSideBar{
+    background: #C4C4C41F;
+    height:8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .SideBarComponents{
+    background: #0A512F6B;
+    display: flex;
+    align-items: center;
+    height:45px;
+    margin-top: 3px;
+  }
+  
+  .no-underline {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .no-underline:hover {
+    text-decoration: none; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content {
+      display: flex;
+      flex-wrap:wrap;
+    }
+    .card-content1{
+      width: 60%;
+    }
+    .sidebar{
+      width:30%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
